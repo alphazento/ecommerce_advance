@@ -1,7 +1,12 @@
 {
     "name": "alphazento/ecommerce_advance",
     "description": "Advance packages of zento ecommerce framework base on Laravel",
-    "keywords": ["laravel", "alphazento", "ecommerce"],
+    "keywords": [
+        "laravel",
+        "alphazento",
+        "ecommerce",
+        "ecommerce_advance"
+    ],
     "license": "MIT",
     "authors": [{
         "name": "Yongcheng Chen",
