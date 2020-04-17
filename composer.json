@@ -1,0 +1,22 @@
+{
+    "name": "alphazento/ecommerce_advance",
+    "description": "Advance packages of zento ecommerce framework base on Laravel",
+    "keywords": ["laravel", "alphazento", "ecommerce"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Yongcheng Chen",
+        "email": "yongcheng.chen@live.com"
+    }],
+    "require": {
+        "php": ">=7.0",
+        "alphazento/zento": ">=1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZentoAdv\\": "src/"
+        },
+        "exclude-from-classmap": ["src/**/Config", "src/**/config"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
